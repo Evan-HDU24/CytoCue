@@ -1,0 +1,5 @@
+CytoCue uses PyTorch and torchvision. ResNet-18 and Swin-Tiny implementations are imported from torchvision rather than vendored. Consult the upstream packages for their licenses and pretrained-weight terms.
+
+The readout uses the SwiGLU formulation of gated feed-forward layers. Bibliographic attribution for ResNet, Swin Transformer and GLU variants is provided in references.bib.
+
+Pan-Multiplex-Gold-Standard and PhenoBIC-Data remain the property of their respective authors and providers. No source images, masks or cell-level annotations are included. The dataset manifest records filenames, splits and normalization metadata needed to reproduce the input pipeline.

@@ -1,0 +1,29 @@
+{
+  "data_root": "data",
+  "dataset_manifest": "datasets.json",
+  "output": "outputs",
+  "checkpoint": "weights/cytocue.pt",
+  "device": "cuda",
+  "seed": 17,
+  "workers": 2,
+  "batch_size": 256,
+  "precision": "bf16",
+  "threshold": 0.5,
+  "marker": "CD8",
+  "cell_size": 96,
+  "context_size": 224,
+  "architecture": {"dimension": 512, "bottleneck": 64, "width": 160},
+  "training": {
+    "encoder_epochs": 30,
+    "warmup_epochs": 3,
+    "encoder_steps": 1000,
+    "encoder_batch_size": 64,
+    "encoder_learning_rate": 0.0001,
+    "projection_learning_rate": 0.001,
+    "readout_epochs": 10,
+    "readout_steps": 500,
+    "readout_batch_size": 128,
+    "readout_learning_rate": 0.003,
+    "weight_decay": 0.0001
+  }
+}

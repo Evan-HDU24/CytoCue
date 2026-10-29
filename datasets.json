@@ -1,0 +1,4506 @@
+[
+  {
+    "pair_key": "b7e30cf1a218ba0080a842cb",
+    "unit": "PanMGold/codex_colon/B010A_reg003_X01_Y01_Z01",
+    "resource": "PanMGold",
+    "source": "codex_colon",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 2127,
+    "split": "evaluation",
+    "block": "codex_colon",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 1544.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/codex_colon/fovs/B010A_reg003_X01_Y01_Z01/CD8.ome.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/codex_colon/masks/B010A_reg003_X01_Y01_Z01.ome.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "codex_colon",
+        "fov": "B010A_reg003_X01_Y01_Z01",
+        "channel": "CD8"
+      }
+    }
+  },
+  {
+    "pair_key": "d41de39ab59ce682012cbc4e",
+    "unit": "PanMGold/codex_colon/B011B_reg001_X01_Y01_Z01",
+    "resource": "PanMGold",
+    "source": "codex_colon",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 5758,
+    "split": "evaluation",
+    "block": "codex_colon",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 32282.0546875
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/codex_colon/fovs/B011B_reg001_X01_Y01_Z01/CD8.ome.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/codex_colon/masks/B011B_reg001_X01_Y01_Z01.ome.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "codex_colon",
+        "fov": "B011B_reg001_X01_Y01_Z01",
+        "channel": "CD8"
+      }
+    }
+  },
+  {
+    "pair_key": "395b6fa825fbe08efc60890f",
+    "unit": "PanMGold/codex_colon/B011B_reg003_X01_Y01_Z01",
+    "resource": "PanMGold",
+    "source": "codex_colon",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 3617,
+    "split": "evaluation",
+    "block": "codex_colon",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 7563.32421875
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/codex_colon/fovs/B011B_reg003_X01_Y01_Z01/CD8.ome.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/codex_colon/masks/B011B_reg003_X01_Y01_Z01.ome.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "codex_colon",
+        "fov": "B011B_reg003_X01_Y01_Z01",
+        "channel": "CD8"
+      }
+    }
+  },
+  {
+    "pair_key": "18d21e7a37e1a7293751fb88",
+    "unit": "PanMGold/mibi_breast/TONIC_TMA10_R1C1",
+    "resource": "PanMGold",
+    "source": "mibi_breast",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 1616,
+    "split": "evaluation",
+    "block": "mibi_breast",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 0.01123053953051567
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_breast/fovs/TONIC_TMA10_R1C1/CD8.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_breast/masks/TONIC_TMA10_R1C1.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_breast",
+        "fov": "TONIC_TMA10_R1C1",
+        "channel": "CD8"
+      }
+    }
+  },
+  {
+    "pair_key": "e5908fd9f17bedc47d1ce943",
+    "unit": "PanMGold/mibi_breast/TONIC_TMA10_R3C6",
+    "resource": "PanMGold",
+    "source": "mibi_breast",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 1452,
+    "split": "evaluation",
+    "block": "mibi_breast",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 0.01654757745563984
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_breast/fovs/TONIC_TMA10_R3C6/CD8.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_breast/masks/TONIC_TMA10_R3C6.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_breast",
+        "fov": "TONIC_TMA10_R3C6",
+        "channel": "CD8"
+      }
+    }
+  },
+  {
+    "pair_key": "0d62875bd2268c874a2e7d8f",
+    "unit": "PanMGold/mibi_breast/TONIC_TMA10_R5C4",
+    "resource": "PanMGold",
+    "source": "mibi_breast",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 4758,
+    "split": "evaluation",
+    "block": "mibi_breast",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 0.012832047417759895
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_breast/fovs/TONIC_TMA10_R5C4/CD8.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_breast/masks/TONIC_TMA10_R5C4.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_breast",
+        "fov": "TONIC_TMA10_R5C4",
+        "channel": "CD8"
+      }
+    }
+  },
+  {
+    "pair_key": "14135dc78655ade11c56c0a9",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD11C",
+    "raw_marker": "CD11c",
+    "n_labels": 2537,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 1.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/CD11c.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "CD11c"
+      }
+    }
+  },
+  {
+    "pair_key": "2cb8dc4d28f541366488b892",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD14",
+    "raw_marker": "CD14",
+    "n_labels": 1584,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 13.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/CD14.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "CD14"
+      }
+    }
+  },
+  {
+    "pair_key": "1c978a4911c860755d1162a0",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD16",
+    "raw_marker": "CD16",
+    "n_labels": 1870,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 4.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/CD16.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "CD16"
+      }
+    }
+  },
+  {
+    "pair_key": "a967e9aeca4443639aaf31ee",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD163",
+    "raw_marker": "CD163",
+    "n_labels": 1827,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 12.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/CD163.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "CD163"
+      }
+    }
+  },
+  {
+    "pair_key": "12a075364c9aee96def32f7b",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD206",
+    "raw_marker": "CD206",
+    "n_labels": 1809,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 11.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/CD206.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "CD206"
+      }
+    }
+  },
+  {
+    "pair_key": "74f8e7012388262fe49f7ba5",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD3",
+    "raw_marker": "CD3",
+    "n_labels": 2435,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 2.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/CD3.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "CD3"
+      }
+    }
+  },
+  {
+    "pair_key": "0b2bc64b91132f9e55ac88cd",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD31",
+    "raw_marker": "CD31",
+    "n_labels": 2437,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 11.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/CD31.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "CD31"
+      }
+    }
+  },
+  {
+    "pair_key": "75e26f4367136266f50eb20e",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD4",
+    "raw_marker": "CD4",
+    "n_labels": 1983,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 4.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/CD4.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "CD4"
+      }
+    }
+  },
+  {
+    "pair_key": "23b57e67583c6c2fcc38d687",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD45",
+    "raw_marker": "CD45",
+    "n_labels": 1997,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 4.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/CD45.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "CD45"
+      }
+    }
+  },
+  {
+    "pair_key": "777952df7543f8a58faad254",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD56",
+    "raw_marker": "CD56",
+    "n_labels": 2141,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 5.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/CD56.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "CD56"
+      }
+    }
+  },
+  {
+    "pair_key": "f1d065123050abe26b110c1b",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD57",
+    "raw_marker": "CD57",
+    "n_labels": 1498,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 14.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/CD57.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "CD57"
+      }
+    }
+  },
+  {
+    "pair_key": "b952679f54481ff58f10009d",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD68",
+    "raw_marker": "CD68",
+    "n_labels": 2040,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 4.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/CD68.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "CD68"
+      }
+    }
+  },
+  {
+    "pair_key": "729757b0b7eb6cce4e961389",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 2460,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 2.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/CD8.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "CD8"
+      }
+    }
+  },
+  {
+    "pair_key": "072d0f68a1288d3598a6f492",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CK7",
+    "raw_marker": "CK7",
+    "n_labels": 2367,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 4.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/CK7.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "CK7"
+      }
+    }
+  },
+  {
+    "pair_key": "8bb637f0cab8b42bd50a9edb",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "DCSIGN",
+    "raw_marker": "DCSIGN",
+    "n_labels": 2090,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 3.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/DCSIGN.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "DCSIGN"
+      }
+    }
+  },
+  {
+    "pair_key": "f795855078d41c341ec26f0b",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "FOXP3",
+    "raw_marker": "FoxP3",
+    "n_labels": 2537,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 0.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/FoxP3.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "FoxP3"
+      }
+    }
+  },
+  {
+    "pair_key": "6de4e4f3af03713ef8a15304",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "HLADR",
+    "raw_marker": "HLADR",
+    "n_labels": 2060,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 8.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/HLADR.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "HLADR"
+      }
+    }
+  },
+  {
+    "pair_key": "8930704377891bef49ef91b2",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "HLAG",
+    "raw_marker": "HLAG",
+    "n_labels": 2537,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 2.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/HLAG.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "HLAG"
+      }
+    }
+  },
+  {
+    "pair_key": "734e5b9459f8d5b6c749706c",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "SMA",
+    "raw_marker": "SMA",
+    "n_labels": 2358,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 21.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/SMA.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "SMA"
+      }
+    }
+  },
+  {
+    "pair_key": "1fd58080fe8d8be5db5fc561",
+    "unit": "PanMGold/mibi_decidua/12_31750_16_12",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "VIM",
+    "raw_marker": "VIM",
+    "n_labels": 2037,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 27.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_16_12/VIM.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_16_12.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_16_12",
+        "channel": "VIM"
+      }
+    }
+  },
+  {
+    "pair_key": "1bed94b3cbe287e41c3d847d",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD11C",
+    "raw_marker": "CD11c",
+    "n_labels": 1993,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 2.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/CD11c.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "CD11c"
+      }
+    }
+  },
+  {
+    "pair_key": "67feebf973b141d7b7eec203",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD14",
+    "raw_marker": "CD14",
+    "n_labels": 1646,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 21.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/CD14.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "CD14"
+      }
+    }
+  },
+  {
+    "pair_key": "36d36bc50a65b27487455a57",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD16",
+    "raw_marker": "CD16",
+    "n_labels": 1785,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 5.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/CD16.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "CD16"
+      }
+    }
+  },
+  {
+    "pair_key": "4b0d660ec3fe96c3c31f2e17",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD163",
+    "raw_marker": "CD163",
+    "n_labels": 1755,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 13.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/CD163.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "CD163"
+      }
+    }
+  },
+  {
+    "pair_key": "4ff7151b249dfcc6dc8f1b3d",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD206",
+    "raw_marker": "CD206",
+    "n_labels": 1668,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 17.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/CD206.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "CD206"
+      }
+    }
+  },
+  {
+    "pair_key": "d1351c3ee3fd3e0992e56d75",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD3",
+    "raw_marker": "CD3",
+    "n_labels": 1980,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 3.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/CD3.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "CD3"
+      }
+    }
+  },
+  {
+    "pair_key": "0a993a6d110f21bcf30e3d32",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD31",
+    "raw_marker": "CD31",
+    "n_labels": 1826,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 13.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/CD31.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "CD31"
+      }
+    }
+  },
+  {
+    "pair_key": "f903792fbccd0c463507fa0d",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD4",
+    "raw_marker": "CD4",
+    "n_labels": 1840,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 5.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/CD4.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "CD4"
+      }
+    }
+  },
+  {
+    "pair_key": "b5ca935e1b175f10f497fbea",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD45",
+    "raw_marker": "CD45",
+    "n_labels": 1745,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 6.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/CD45.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "CD45"
+      }
+    }
+  },
+  {
+    "pair_key": "c394ecdf9f7339f9bd3b059b",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD56",
+    "raw_marker": "CD56",
+    "n_labels": 1827,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 8.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/CD56.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "CD56"
+      }
+    }
+  },
+  {
+    "pair_key": "4fa0599f2cd28593abeeb09c",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD57",
+    "raw_marker": "CD57",
+    "n_labels": 1450,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 14.999999046325684
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/CD57.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "CD57"
+      }
+    }
+  },
+  {
+    "pair_key": "9f6ada71fd5093cdf55c365b",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD68",
+    "raw_marker": "CD68",
+    "n_labels": 1778,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 7.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/CD68.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "CD68"
+      }
+    }
+  },
+  {
+    "pair_key": "bc6cd06664c45daed10a16b0",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 1994,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 3.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/CD8.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "CD8"
+      }
+    }
+  },
+  {
+    "pair_key": "8734181d489e41f59e04cbca",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "CK7",
+    "raw_marker": "CK7",
+    "n_labels": 1837,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 6.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/CK7.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "CK7"
+      }
+    }
+  },
+  {
+    "pair_key": "36d159483820898bf7cc3092",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "DCSIGN",
+    "raw_marker": "DCSIGN",
+    "n_labels": 1624,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 10.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/DCSIGN.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "DCSIGN"
+      }
+    }
+  },
+  {
+    "pair_key": "fc078c2e7392a171c6c3bbae",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "FOXP3",
+    "raw_marker": "FoxP3",
+    "n_labels": 2033,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 0.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/FoxP3.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "FoxP3"
+      }
+    }
+  },
+  {
+    "pair_key": "62b6872e14e1f021d97933d4",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "HLADR",
+    "raw_marker": "HLADR",
+    "n_labels": 1653,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 9.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/HLADR.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "HLADR"
+      }
+    }
+  },
+  {
+    "pair_key": "78eb133b85f1cccbdc995a24",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "HLAG",
+    "raw_marker": "HLAG",
+    "n_labels": 1973,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 6.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/HLAG.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "HLAG"
+      }
+    }
+  },
+  {
+    "pair_key": "87cd36f65f7bf2f4eb88e982",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "SMA",
+    "raw_marker": "SMA",
+    "n_labels": 1654,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 18.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/SMA.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "SMA"
+      }
+    }
+  },
+  {
+    "pair_key": "254e0a9291bd084e1eb0e596",
+    "unit": "PanMGold/mibi_decidua/12_31750_1_10",
+    "resource": "PanMGold",
+    "source": "mibi_decidua",
+    "marker": "VIM",
+    "raw_marker": "VIM",
+    "n_labels": 1654,
+    "split": "train",
+    "block": "mibi_decidua",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 37.0
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/fovs/12_31750_1_10/VIM.tif",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/mibi_decidua/masks/12_31750_1_10.tiff",
+      "shape": [
+        2048,
+        2048
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "mibi_decidua",
+        "fov": "12_31750_1_10",
+        "channel": "VIM"
+      }
+    }
+  },
+  {
+    "pair_key": "e4dff24c8a50273b72cfe457",
+    "unit": "PanMGold/vectra_colon/3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image",
+    "resource": "PanMGold",
+    "source": "vectra_colon",
+    "marker": "CD3",
+    "raw_marker": "CD3",
+    "n_labels": 9931,
+    "split": "train",
+    "block": "vectra_colon",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 2.3374974727630615
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_colon/fovs/3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image/CD3.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_colon/masks/3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_colon",
+        "fov": "3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image",
+        "channel": "CD3"
+      }
+    }
+  },
+  {
+    "pair_key": "c06c763fd1ce935bc24bd027",
+    "unit": "PanMGold/vectra_colon/3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image",
+    "resource": "PanMGold",
+    "source": "vectra_colon",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 10119,
+    "split": "train",
+    "block": "vectra_colon",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 8.329071044921875
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_colon/fovs/3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image/CD8.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_colon/masks/3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_colon",
+        "fov": "3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image",
+        "channel": "CD8"
+      }
+    }
+  },
+  {
+    "pair_key": "c6f396a616b8eb12f003ee35",
+    "unit": "PanMGold/vectra_colon/3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image",
+    "resource": "PanMGold",
+    "source": "vectra_colon",
+    "marker": "UNRESOLVED_VECTRA_COLON_FOX",
+    "raw_marker": "Foxp3",
+    "n_labels": 10040,
+    "split": "train",
+    "block": "vectra_colon",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 9.304929733276367
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_colon/fovs/3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image/Foxp3.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_colon/masks/3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_colon",
+        "fov": "3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image",
+        "channel": "Foxp3"
+      }
+    }
+  },
+  {
+    "pair_key": "24693266dd0f41f478d96e67",
+    "unit": "PanMGold/vectra_colon/3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image",
+    "resource": "PanMGold",
+    "source": "vectra_colon",
+    "marker": "ICOS",
+    "raw_marker": "ICOS",
+    "n_labels": 9879,
+    "split": "train",
+    "block": "vectra_colon",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 87.56622314453125
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_colon/fovs/3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image/ICOS.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_colon/masks/3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_colon",
+        "fov": "3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image",
+        "channel": "ICOS"
+      }
+    }
+  },
+  {
+    "pair_key": "75185894ff6bd29b81726e0a",
+    "unit": "PanMGold/vectra_colon/3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image",
+    "resource": "PanMGold",
+    "source": "vectra_colon",
+    "marker": "PDL1",
+    "raw_marker": "PD-L1",
+    "n_labels": 10076,
+    "split": "train",
+    "block": "vectra_colon",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 5.146368503570557
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_colon/fovs/3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image/PD-L1.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_colon/masks/3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_colon",
+        "fov": "3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image",
+        "channel": "PD-L1"
+      }
+    }
+  },
+  {
+    "pair_key": "38f56bf50c8bc0a2f9fd0380",
+    "unit": "PanMGold/vectra_colon/3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image",
+    "resource": "PanMGold",
+    "source": "vectra_colon",
+    "marker": "PANCK_CK7_CAM52_COCKTAIL",
+    "raw_marker": "panCK+CK7+CAM5.2",
+    "n_labels": 9757,
+    "split": "train",
+    "block": "vectra_colon",
+    "normalization": {
+      "q1": 0.09102246165275574,
+      "q99_9": 17.266006469726562
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_colon/fovs/3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image/panCK+CK7+CAM5.2.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_colon/masks/3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_colon",
+        "fov": "3e507f0a3dd2_Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[54006,21157]_image",
+        "channel": "panCK+CK7+CAM5.2"
+      }
+    }
+  },
+  {
+    "pair_key": "b737f60a2c27ccf33bf13708",
+    "unit": "PanMGold/vectra_colon/49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_image",
+    "resource": "PanMGold",
+    "source": "vectra_colon",
+    "marker": "CD3",
+    "raw_marker": "CD3",
+    "n_labels": 15063,
+    "split": "train",
+    "block": "vectra_colon",
+    "normalization": {
+      "q1": 0.07399003952741623,
+      "q99_9": 14.322843551635742
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_colon/fovs/49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_image/CD3.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_colon/masks/49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_imagefeature_0.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_colon",
+        "fov": "49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_image",
+        "channel": "CD3"
+      }
+    }
+  },
+  {
+    "pair_key": "49da1d1223d2e7e94fc4aaf3",
+    "unit": "PanMGold/vectra_colon/49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_image",
+    "resource": "PanMGold",
+    "source": "vectra_colon",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 15459,
+    "split": "train",
+    "block": "vectra_colon",
+    "normalization": {
+      "q1": 0.007285504601895809,
+      "q99_9": 22.968473434448242
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_colon/fovs/49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_image/CD8.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_colon/masks/49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_imagefeature_0.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_colon",
+        "fov": "49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_image",
+        "channel": "CD8"
+      }
+    }
+  },
+  {
+    "pair_key": "5a3c4a0907fca57c40ea5805",
+    "unit": "PanMGold/vectra_colon/49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_image",
+    "resource": "PanMGold",
+    "source": "vectra_colon",
+    "marker": "UNRESOLVED_VECTRA_COLON_FOX",
+    "raw_marker": "Foxp3",
+    "n_labels": 15860,
+    "split": "train",
+    "block": "vectra_colon",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 7.214785575866699
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_colon/fovs/49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_image/Foxp3.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_colon/masks/49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_imagefeature_0.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_colon",
+        "fov": "49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_image",
+        "channel": "Foxp3"
+      }
+    }
+  },
+  {
+    "pair_key": "6285c88feaf597a33876cb53",
+    "unit": "PanMGold/vectra_colon/49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_image",
+    "resource": "PanMGold",
+    "source": "vectra_colon",
+    "marker": "ICOS",
+    "raw_marker": "ICOS",
+    "n_labels": 15920,
+    "split": "train",
+    "block": "vectra_colon",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 9.799155235290527
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_colon/fovs/49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_image/ICOS.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_colon/masks/49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_imagefeature_0.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_colon",
+        "fov": "49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_image",
+        "channel": "ICOS"
+      }
+    }
+  },
+  {
+    "pair_key": "d6b6fdcb77fa3dd187c469e0",
+    "unit": "PanMGold/vectra_colon/49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_image",
+    "resource": "PanMGold",
+    "source": "vectra_colon",
+    "marker": "PDL1",
+    "raw_marker": "PD-L1",
+    "n_labels": 15615,
+    "split": "train",
+    "block": "vectra_colon",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 15.467731475830078
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_colon/fovs/49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_image/PD-L1.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_colon/masks/49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_imagefeature_0.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_colon",
+        "fov": "49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_image",
+        "channel": "PD-L1"
+      }
+    }
+  },
+  {
+    "pair_key": "6e284a6542365a13a02346f5",
+    "unit": "PanMGold/vectra_colon/49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_image",
+    "resource": "PanMGold",
+    "source": "vectra_colon",
+    "marker": "PANCK_CK7_CAM52_COCKTAIL",
+    "raw_marker": "panCK+CK7+CAM5.2",
+    "n_labels": 15687,
+    "split": "train",
+    "block": "vectra_colon",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 16.254894256591797
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_colon/fovs/49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_image/panCK+CK7+CAM5.2.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_colon/masks/49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_imagefeature_0.ome.tif",
+      "shape": [
+        2008,
+        2684
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_colon",
+        "fov": "49e532ac63a8_3-13 Colon P20 CD3, Foxp1, PDL1, ICOS, CD8, panCK+CK7+CAM5.2__[53850,11905]_image",
+        "channel": "panCK+CK7+CAM5.2"
+      }
+    }
+  },
+  {
+    "pair_key": "1521a41ccf19acad5fc4d3cc",
+    "unit": "PanMGold/vectra_pancreas/0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.tif_image",
+    "resource": "PanMGold",
+    "source": "vectra_pancreas",
+    "marker": "CD40",
+    "raw_marker": "CD40",
+    "n_labels": 9407,
+    "split": "train",
+    "block": "vectra_pancreas",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 12.019083023071289
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/fovs/0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.tif_image/CD40.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/masks/0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_pancreas",
+        "fov": "0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.tif_image",
+        "channel": "CD40"
+      }
+    }
+  },
+  {
+    "pair_key": "0d222574fc897f027741e3a2",
+    "unit": "PanMGold/vectra_pancreas/0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.tif_image",
+    "resource": "PanMGold",
+    "source": "vectra_pancreas",
+    "marker": "CD40L",
+    "raw_marker": "CD40-L",
+    "n_labels": 9754,
+    "split": "train",
+    "block": "vectra_pancreas",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 5.036920070648193
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/fovs/0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.tif_image/CD40-L.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/masks/0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_pancreas",
+        "fov": "0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.tif_image",
+        "channel": "CD40-L"
+      }
+    }
+  },
+  {
+    "pair_key": "f3787dc148ed7dd8eaae5312",
+    "unit": "PanMGold/vectra_pancreas/0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.tif_image",
+    "resource": "PanMGold",
+    "source": "vectra_pancreas",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 9784,
+    "split": "train",
+    "block": "vectra_pancreas",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 20.216629028320312
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/fovs/0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.tif_image/CD8.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/masks/0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_pancreas",
+        "fov": "0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.tif_image",
+        "channel": "CD8"
+      }
+    }
+  },
+  {
+    "pair_key": "36b3fab0b70fcec12edfa90b",
+    "unit": "PanMGold/vectra_pancreas/0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.tif_image",
+    "resource": "PanMGold",
+    "source": "vectra_pancreas",
+    "marker": "PD1",
+    "raw_marker": "PD-1",
+    "n_labels": 9692,
+    "split": "train",
+    "block": "vectra_pancreas",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 10.154172897338867
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/fovs/0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.tif_image/PD-1.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/masks/0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_pancreas",
+        "fov": "0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.tif_image",
+        "channel": "PD-1"
+      }
+    }
+  },
+  {
+    "pair_key": "a2847f9329fda57188ee5911",
+    "unit": "PanMGold/vectra_pancreas/0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.tif_image",
+    "resource": "PanMGold",
+    "source": "vectra_pancreas",
+    "marker": "PDL1",
+    "raw_marker": "PD-L1",
+    "n_labels": 9729,
+    "split": "train",
+    "block": "vectra_pancreas",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 20.41303253173828
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/fovs/0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.tif_image/PD-L1.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/masks/0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_pancreas",
+        "fov": "0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.tif_image",
+        "channel": "PD-L1"
+      }
+    }
+  },
+  {
+    "pair_key": "1f0bf5eceab2443b7900c751",
+    "unit": "PanMGold/vectra_pancreas/0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.tif_image",
+    "resource": "PanMGold",
+    "source": "vectra_pancreas",
+    "marker": "PANCK",
+    "raw_marker": "panCK",
+    "n_labels": 9709,
+    "split": "train",
+    "block": "vectra_pancreas",
+    "normalization": {
+      "q1": 0.1588137149810791,
+      "q99_9": 17.367847442626953
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/fovs/0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.tif_image/panCK.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/masks/0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_pancreas",
+        "fov": "0852a4103bed Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[61352,11423]_component_data.tif_image",
+        "channel": "panCK"
+      }
+    }
+  },
+  {
+    "pair_key": "bef301856b7993e0ae36607e",
+    "unit": "PanMGold/vectra_pancreas/8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.tif_image",
+    "resource": "PanMGold",
+    "source": "vectra_pancreas",
+    "marker": "CD40",
+    "raw_marker": "CD40",
+    "n_labels": 6249,
+    "split": "train",
+    "block": "vectra_pancreas",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 12.260034561157227
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/fovs/8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.tif_image/CD40.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/masks/8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_pancreas",
+        "fov": "8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.tif_image",
+        "channel": "CD40"
+      }
+    }
+  },
+  {
+    "pair_key": "062736e437d3044359866121",
+    "unit": "PanMGold/vectra_pancreas/8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.tif_image",
+    "resource": "PanMGold",
+    "source": "vectra_pancreas",
+    "marker": "CD40L",
+    "raw_marker": "CD40-L",
+    "n_labels": 6786,
+    "split": "train",
+    "block": "vectra_pancreas",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 4.697790145874023
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/fovs/8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.tif_image/CD40-L.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/masks/8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_pancreas",
+        "fov": "8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.tif_image",
+        "channel": "CD40-L"
+      }
+    }
+  },
+  {
+    "pair_key": "dc1d30de706879101314cc08",
+    "unit": "PanMGold/vectra_pancreas/8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.tif_image",
+    "resource": "PanMGold",
+    "source": "vectra_pancreas",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 6621,
+    "split": "train",
+    "block": "vectra_pancreas",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 40.006832122802734
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/fovs/8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.tif_image/CD8.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/masks/8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_pancreas",
+        "fov": "8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.tif_image",
+        "channel": "CD8"
+      }
+    }
+  },
+  {
+    "pair_key": "8bad5f41fb10e1941b7e1c6c",
+    "unit": "PanMGold/vectra_pancreas/8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.tif_image",
+    "resource": "PanMGold",
+    "source": "vectra_pancreas",
+    "marker": "PD1",
+    "raw_marker": "PD-1",
+    "n_labels": 6747,
+    "split": "train",
+    "block": "vectra_pancreas",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 7.405322074890137
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/fovs/8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.tif_image/PD-1.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/masks/8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_pancreas",
+        "fov": "8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.tif_image",
+        "channel": "PD-1"
+      }
+    }
+  },
+  {
+    "pair_key": "18aa98c4e72c898f1a393487",
+    "unit": "PanMGold/vectra_pancreas/8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.tif_image",
+    "resource": "PanMGold",
+    "source": "vectra_pancreas",
+    "marker": "PDL1",
+    "raw_marker": "PD-L1",
+    "n_labels": 6644,
+    "split": "train",
+    "block": "vectra_pancreas",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 15.679662704467773
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/fovs/8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.tif_image/PD-L1.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/masks/8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_pancreas",
+        "fov": "8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.tif_image",
+        "channel": "PD-L1"
+      }
+    }
+  },
+  {
+    "pair_key": "28edb7e2cd3914dece998665",
+    "unit": "PanMGold/vectra_pancreas/8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.tif_image",
+    "resource": "PanMGold",
+    "source": "vectra_pancreas",
+    "marker": "PANCK",
+    "raw_marker": "panCK",
+    "n_labels": 6632,
+    "split": "train",
+    "block": "vectra_pancreas",
+    "normalization": {
+      "q1": 0.41372957825660706,
+      "q99_9": 20.782930374145508
+    },
+    "image": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/fovs/8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.tif_image/panCK.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "mask": {
+      "path": "panm/gold_standard_labelled/vectra_pancreas/masks/8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.ome.tif",
+      "shape": [
+        2008,
+        2688
+      ]
+    },
+    "labels": {
+      "path": "panm/gold_standard_labelled/gold_standard_groundtruth.csv",
+      "id": "cell_id",
+      "target": "activity",
+      "ambiguous": true,
+      "filters": {
+        "dataset": "vectra_pancreas",
+        "fov": "8f39cecaa5aa Pancreas_PANEL7-10_CD40L,_CD40,_PD1,_PDL1,CD8,CK_[43899,11766]_component_data.tif_image",
+        "channel": "panCK"
+      }
+    }
+  },
+  {
+    "pair_key": "cea4f55ef19198e49e1a2bd3",
+    "unit": "PhenoBIC/TMA1/core_2_1",
+    "resource": "PhenoBIC",
+    "source": "TMA1",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 11147,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 0.5656846761703491
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_2_1/multiplex_images/core_2_1/CD8.tif",
+      "shape": [
+        3488,
+        3546
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_2_1/cell_segmentations/core_2_1.tiff",
+      "shape": [
+        3488,
+        3546
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA1_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_2_1"
+      }
+    }
+  },
+  {
+    "pair_key": "43327c4f41d88cdfd453acae",
+    "unit": "PhenoBIC/TMA1/core_2_3",
+    "resource": "PhenoBIC",
+    "source": "TMA1",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 9479,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 0.5577856302261353
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_2_3/multiplex_images/core_2_3/CD8.tif",
+      "shape": [
+        3405,
+        3492
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_2_3/cell_segmentations/core_2_3.tiff",
+      "shape": [
+        3405,
+        3492
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA1_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_2_3"
+      }
+    }
+  },
+  {
+    "pair_key": "c8678bbdb5d53528c0b356a7",
+    "unit": "PhenoBIC/TMA1/core_2_5",
+    "resource": "PhenoBIC",
+    "source": "TMA1",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 18311,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 0.8796521425247192
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_2_5/multiplex_images/core_2_5/CD8.tif",
+      "shape": [
+        3605,
+        3594
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_2_5/cell_segmentations/core_2_5.tiff",
+      "shape": [
+        3605,
+        3594
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA1_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_2_5"
+      }
+    }
+  },
+  {
+    "pair_key": "7eda094d0a878749de038d13",
+    "unit": "PhenoBIC/TMA1/core_2_9",
+    "resource": "PhenoBIC",
+    "source": "TMA1",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 4507,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 0.8835347890853882
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_2_9/multiplex_images/core_2_9/CD8.tif",
+      "shape": [
+        3499,
+        3460
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_2_9/cell_segmentations/core_2_9.tiff",
+      "shape": [
+        3499,
+        3460
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA1_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_2_9"
+      }
+    }
+  },
+  {
+    "pair_key": "8137a35c2f67e7686522f19f",
+    "unit": "PhenoBIC/TMA1/core_4_4",
+    "resource": "PhenoBIC",
+    "source": "TMA1",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 15876,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 0.7967399954795837
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_4_4/multiplex_images/core_4_4/CD8.tif",
+      "shape": [
+        3591,
+        3555
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_4_4/cell_segmentations/core_4_4.tiff",
+      "shape": [
+        3591,
+        3555
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA1_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_4_4"
+      }
+    }
+  },
+  {
+    "pair_key": "04b2fec20a9ee8a84773f274",
+    "unit": "PhenoBIC/TMA1/core_5_3",
+    "resource": "PhenoBIC",
+    "source": "TMA1",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 7946,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 0.8136839270591736
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_5_3/multiplex_images/core_5_3/CD8.tif",
+      "shape": [
+        3443,
+        3414
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_5_3/cell_segmentations/core_5_3.tiff",
+      "shape": [
+        3443,
+        3414
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA1_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_5_3"
+      }
+    }
+  },
+  {
+    "pair_key": "f2aad33bacfe8cf0207d9e00",
+    "unit": "PhenoBIC/TMA1/core_5_5",
+    "resource": "PhenoBIC",
+    "source": "TMA1",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 13264,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 0.9922704696655273
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_5_5/multiplex_images/core_5_5/CD8.tif",
+      "shape": [
+        3586,
+        3613
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_5_5/cell_segmentations/core_5_5.tiff",
+      "shape": [
+        3586,
+        3613
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA1_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_5_5"
+      }
+    }
+  },
+  {
+    "pair_key": "a56bf89d9b678d4cce54f3cf",
+    "unit": "PhenoBIC/TMA1/core_5_7",
+    "resource": "PhenoBIC",
+    "source": "TMA1",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 9416,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 0.5604485869407654
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_5_7/multiplex_images/core_5_7/CD8.tif",
+      "shape": [
+        3491,
+        3677
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_5_7/cell_segmentations/core_5_7.tiff",
+      "shape": [
+        3491,
+        3677
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA1_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_5_7"
+      }
+    }
+  },
+  {
+    "pair_key": "3f5446e0e0578ebf6b8fed94",
+    "unit": "PhenoBIC/TMA1/core_6_2",
+    "resource": "PhenoBIC",
+    "source": "TMA1",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 11200,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 0.6980669498443604
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_6_2/multiplex_images/core_6_2/CD8.tif",
+      "shape": [
+        3601,
+        3451
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_6_2/cell_segmentations/core_6_2.tiff",
+      "shape": [
+        3601,
+        3451
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA1_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_6_2"
+      }
+    }
+  },
+  {
+    "pair_key": "ee1ba549ed71f460b19a02cf",
+    "unit": "PhenoBIC/TMA1/core_6_4",
+    "resource": "PhenoBIC",
+    "source": "TMA1",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 14691,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 0.5964050889015198
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_6_4/multiplex_images/core_6_4/CD8.tif",
+      "shape": [
+        3602,
+        3568
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_6_4/cell_segmentations/core_6_4.tiff",
+      "shape": [
+        3602,
+        3568
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA1_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_6_4"
+      }
+    }
+  },
+  {
+    "pair_key": "3ddbdf9e85984845347313b4",
+    "unit": "PhenoBIC/TMA1/core_8_3",
+    "resource": "PhenoBIC",
+    "source": "TMA1",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 17268,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 0.9773508310317993
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_8_3/multiplex_images/core_8_3/CD8.tif",
+      "shape": [
+        3393,
+        3509
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_8_3/cell_segmentations/core_8_3.tiff",
+      "shape": [
+        3393,
+        3509
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA1_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_8_3"
+      }
+    }
+  },
+  {
+    "pair_key": "6b8e3d16122301e169810a40",
+    "unit": "PhenoBIC/TMA1/core_9_8",
+    "resource": "PhenoBIC",
+    "source": "TMA1",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 12596,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 0.6571778059005737
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_9_8/multiplex_images/core_9_8/CD8.tif",
+      "shape": [
+        3594,
+        3505
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA1_CD8/core_9_8/cell_segmentations/core_9_8.tiff",
+      "shape": [
+        3594,
+        3505
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA1_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_9_8"
+      }
+    }
+  },
+  {
+    "pair_key": "ceb93c93d07ecbd007ccca70",
+    "unit": "PhenoBIC/TMA2/core_1_1",
+    "resource": "PhenoBIC",
+    "source": "TMA2",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 13616,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 5.672029495239258
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_1_1/multiplex_images/core_1_1/CD8.tif",
+      "shape": [
+        3486,
+        3485
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_1_1/cell_segmentations/core_1_1.tiff",
+      "shape": [
+        3486,
+        3485
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA2_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_1_1"
+      }
+    }
+  },
+  {
+    "pair_key": "73e298aa04695cccd5a3236d",
+    "unit": "PhenoBIC/TMA2/core_3_1",
+    "resource": "PhenoBIC",
+    "source": "TMA2",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 14839,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 5.267258644104004
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_3_1/multiplex_images/core_3_1/CD8.tif",
+      "shape": [
+        3539,
+        3566
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_3_1/cell_segmentations/core_3_1.tiff",
+      "shape": [
+        3539,
+        3566
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA2_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_3_1"
+      }
+    }
+  },
+  {
+    "pair_key": "299db1102088a28ff003a271",
+    "unit": "PhenoBIC/TMA2/core_4_1",
+    "resource": "PhenoBIC",
+    "source": "TMA2",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 13857,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 4.151223182678223
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_4_1/multiplex_images/core_4_1/CD8.tif",
+      "shape": [
+        3401,
+        3406
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_4_1/cell_segmentations/core_4_1.tiff",
+      "shape": [
+        3401,
+        3406
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA2_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_4_1"
+      }
+    }
+  },
+  {
+    "pair_key": "e70e4073b147da9f5cf17d34",
+    "unit": "PhenoBIC/TMA2/core_4_4",
+    "resource": "PhenoBIC",
+    "source": "TMA2",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 15910,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 6.75660514831543
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_4_4/multiplex_images/core_4_4/CD8.tif",
+      "shape": [
+        3602,
+        3509
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_4_4/cell_segmentations/core_4_4.tiff",
+      "shape": [
+        3602,
+        3509
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA2_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_4_4"
+      }
+    }
+  },
+  {
+    "pair_key": "2303974db507d6b89c6559fa",
+    "unit": "PhenoBIC/TMA2/core_5_4",
+    "resource": "PhenoBIC",
+    "source": "TMA2",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 17625,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 4.866975784301758
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_5_4/multiplex_images/core_5_4/CD8.tif",
+      "shape": [
+        3629,
+        3581
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_5_4/cell_segmentations/core_5_4.tiff",
+      "shape": [
+        3629,
+        3581
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA2_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_5_4"
+      }
+    }
+  },
+  {
+    "pair_key": "7cadb27cbce16d4e5f173766",
+    "unit": "PhenoBIC/TMA2/core_5_5",
+    "resource": "PhenoBIC",
+    "source": "TMA2",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 13401,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 4.821691513061523
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_5_5/multiplex_images/core_5_5/CD8.tif",
+      "shape": [
+        3511,
+        3471
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_5_5/cell_segmentations/core_5_5.tiff",
+      "shape": [
+        3511,
+        3471
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA2_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_5_5"
+      }
+    }
+  },
+  {
+    "pair_key": "7a29d32ebc3d1d4a258c55b2",
+    "unit": "PhenoBIC/TMA2/core_6_4",
+    "resource": "PhenoBIC",
+    "source": "TMA2",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 15623,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 5.486345291137695
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_6_4/multiplex_images/core_6_4/CD8.tif",
+      "shape": [
+        3594,
+        3578
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_6_4/cell_segmentations/core_6_4.tiff",
+      "shape": [
+        3594,
+        3578
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA2_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_6_4"
+      }
+    }
+  },
+  {
+    "pair_key": "021565dc001110d6294706c8",
+    "unit": "PhenoBIC/TMA2/core_7_1",
+    "resource": "PhenoBIC",
+    "source": "TMA2",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 4095,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 6.585292339324951
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_7_1/multiplex_images/core_7_1/CD8.tif",
+      "shape": [
+        3255,
+        3383
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_7_1/cell_segmentations/core_7_1.tiff",
+      "shape": [
+        3255,
+        3383
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA2_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_7_1"
+      }
+    }
+  },
+  {
+    "pair_key": "983797be62770d0f9387b3b4",
+    "unit": "PhenoBIC/TMA2/core_7_3",
+    "resource": "PhenoBIC",
+    "source": "TMA2",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 17908,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 6.085127830505371
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_7_3/multiplex_images/core_7_3/CD8.tif",
+      "shape": [
+        3374,
+        3538
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_7_3/cell_segmentations/core_7_3.tiff",
+      "shape": [
+        3374,
+        3538
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA2_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_7_3"
+      }
+    }
+  },
+  {
+    "pair_key": "409ddb2d729be05cde5c3b0e",
+    "unit": "PhenoBIC/TMA2/core_7_8",
+    "resource": "PhenoBIC",
+    "source": "TMA2",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 10664,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 4.720771312713623
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_7_8/multiplex_images/core_7_8/CD8.tif",
+      "shape": [
+        3531,
+        3444
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_7_8/cell_segmentations/core_7_8.tiff",
+      "shape": [
+        3531,
+        3444
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA2_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_7_8"
+      }
+    }
+  },
+  {
+    "pair_key": "e7d751ce0bd6c091d78edacf",
+    "unit": "PhenoBIC/TMA2/core_8_1",
+    "resource": "PhenoBIC",
+    "source": "TMA2",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 10368,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 5.767933368682861
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_8_1/multiplex_images/core_8_1/CD8.tif",
+      "shape": [
+        3349,
+        3505
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_8_1/cell_segmentations/core_8_1.tiff",
+      "shape": [
+        3349,
+        3505
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA2_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_8_1"
+      }
+    }
+  },
+  {
+    "pair_key": "acecb93d304233e20142b024",
+    "unit": "PhenoBIC/TMA2/core_8_5",
+    "resource": "PhenoBIC",
+    "source": "TMA2",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 10473,
+    "split": "evaluation",
+    "block": "Pheno_TMA12",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 3.3147382736206055
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_8_5/multiplex_images/core_8_5/CD8.tif",
+      "shape": [
+        3460,
+        3648
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA2_CD8/core_8_5/cell_segmentations/core_8_5.tiff",
+      "shape": [
+        3460,
+        3648
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA2_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_8_5"
+      }
+    }
+  },
+  {
+    "pair_key": "64c7253855de1657de1d7fd5",
+    "unit": "PhenoBIC/TMA3/core_1_1_5",
+    "resource": "PhenoBIC",
+    "source": "TMA3",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 8103,
+    "split": "evaluation",
+    "block": "Pheno_TMA3",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 144.0
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_1_1_5/multiplex_images/core_1_1_5/CD8.tif",
+      "shape": [
+        2354,
+        2860
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_1_1_5/cell_segmentations/core_1_1_5.tiff",
+      "shape": [
+        2354,
+        2860
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA3_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_1_1_5"
+      }
+    }
+  },
+  {
+    "pair_key": "97d021a45e142bab0329b440",
+    "unit": "PhenoBIC/TMA3/core_1_2_4",
+    "resource": "PhenoBIC",
+    "source": "TMA3",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 7245,
+    "split": "evaluation",
+    "block": "Pheno_TMA3",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 147.0
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_1_2_4/multiplex_images/core_1_2_4/CD8.tif",
+      "shape": [
+        2297,
+        2285
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_1_2_4/cell_segmentations/core_1_2_4.tiff",
+      "shape": [
+        2297,
+        2285
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA3_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_1_2_4"
+      }
+    }
+  },
+  {
+    "pair_key": "c08ebce86f164563d76ceebe",
+    "unit": "PhenoBIC/TMA3/core_1_4_1",
+    "resource": "PhenoBIC",
+    "source": "TMA3",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 9612,
+    "split": "evaluation",
+    "block": "Pheno_TMA3",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 127.0
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_1_4_1/multiplex_images/core_1_4_1/CD8.tif",
+      "shape": [
+        2471,
+        2484
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_1_4_1/cell_segmentations/core_1_4_1.tiff",
+      "shape": [
+        2471,
+        2484
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA3_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_1_4_1"
+      }
+    }
+  },
+  {
+    "pair_key": "7cff6446c386e9f2031aac00",
+    "unit": "PhenoBIC/TMA3/core_1_4_4",
+    "resource": "PhenoBIC",
+    "source": "TMA3",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 5347,
+    "split": "evaluation",
+    "block": "Pheno_TMA3",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 66.0
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_1_4_4/multiplex_images/core_1_4_4/CD8.tif",
+      "shape": [
+        2344,
+        2478
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_1_4_4/cell_segmentations/core_1_4_4.tiff",
+      "shape": [
+        2344,
+        2478
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA3_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_1_4_4"
+      }
+    }
+  },
+  {
+    "pair_key": "7b53c1db8e7d14cfc6303c18",
+    "unit": "PhenoBIC/TMA3/core_1_4_6",
+    "resource": "PhenoBIC",
+    "source": "TMA3",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 5731,
+    "split": "evaluation",
+    "block": "Pheno_TMA3",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 105.99999237060547
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_1_4_6/multiplex_images/core_1_4_6/CD8.tif",
+      "shape": [
+        2386,
+        2309
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_1_4_6/cell_segmentations/core_1_4_6.tiff",
+      "shape": [
+        2386,
+        2309
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA3_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_1_4_6"
+      }
+    }
+  },
+  {
+    "pair_key": "d51c0a27be1989ec3ee30d2a",
+    "unit": "PhenoBIC/TMA3/core_1_5_2",
+    "resource": "PhenoBIC",
+    "source": "TMA3",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 7379,
+    "split": "evaluation",
+    "block": "Pheno_TMA3",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 125.0
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_1_5_2/multiplex_images/core_1_5_2/CD8.tif",
+      "shape": [
+        2361,
+        2402
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_1_5_2/cell_segmentations/core_1_5_2.tiff",
+      "shape": [
+        2361,
+        2402
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA3_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_1_5_2"
+      }
+    }
+  },
+  {
+    "pair_key": "1d0e1ae14d0c8ee2dab48928",
+    "unit": "PhenoBIC/TMA3/core_1_6_1",
+    "resource": "PhenoBIC",
+    "source": "TMA3",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 8177,
+    "split": "evaluation",
+    "block": "Pheno_TMA3",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 88.99999237060547
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_1_6_1/multiplex_images/core_1_6_1/CD8.tif",
+      "shape": [
+        2238,
+        2239
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_1_6_1/cell_segmentations/core_1_6_1.tiff",
+      "shape": [
+        2238,
+        2239
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA3_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_1_6_1"
+      }
+    }
+  },
+  {
+    "pair_key": "6f91eab64310524b7ccc0a97",
+    "unit": "PhenoBIC/TMA3/core_1_6_2",
+    "resource": "PhenoBIC",
+    "source": "TMA3",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 3213,
+    "split": "evaluation",
+    "block": "Pheno_TMA3",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 74.0
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_1_6_2/multiplex_images/core_1_6_2/CD8.tif",
+      "shape": [
+        2378,
+        2276
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_1_6_2/cell_segmentations/core_1_6_2.tiff",
+      "shape": [
+        2378,
+        2276
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA3_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_1_6_2"
+      }
+    }
+  },
+  {
+    "pair_key": "f5faaffb051e732082003515",
+    "unit": "PhenoBIC/TMA3/core_1_6_7",
+    "resource": "PhenoBIC",
+    "source": "TMA3",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 4522,
+    "split": "evaluation",
+    "block": "Pheno_TMA3",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 78.0
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_1_6_7/multiplex_images/core_1_6_7/CD8.tif",
+      "shape": [
+        3102,
+        2774
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_1_6_7/cell_segmentations/core_1_6_7.tiff",
+      "shape": [
+        3102,
+        2774
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA3_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_1_6_7"
+      }
+    }
+  },
+  {
+    "pair_key": "e8928e28ae7e36c9729e7dc6",
+    "unit": "PhenoBIC/TMA3/core_2_1_2",
+    "resource": "PhenoBIC",
+    "source": "TMA3",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 8447,
+    "split": "evaluation",
+    "block": "Pheno_TMA3",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 136.0
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_2_1_2/multiplex_images/core_2_1_2/CD8.tif",
+      "shape": [
+        2524,
+        2778
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_2_1_2/cell_segmentations/core_2_1_2.tiff",
+      "shape": [
+        2524,
+        2778
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA3_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_2_1_2"
+      }
+    }
+  },
+  {
+    "pair_key": "246032530c111a5199f00110",
+    "unit": "PhenoBIC/TMA3/core_2_2_1",
+    "resource": "PhenoBIC",
+    "source": "TMA3",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 8402,
+    "split": "evaluation",
+    "block": "Pheno_TMA3",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 153.0
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_2_2_1/multiplex_images/core_2_2_1/CD8.tif",
+      "shape": [
+        2543,
+        2711
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_2_2_1/cell_segmentations/core_2_2_1.tiff",
+      "shape": [
+        2543,
+        2711
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA3_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_2_2_1"
+      }
+    }
+  },
+  {
+    "pair_key": "7487961a95edff9c70aec21f",
+    "unit": "PhenoBIC/TMA3/core_2_2_5",
+    "resource": "PhenoBIC",
+    "source": "TMA3",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 6702,
+    "split": "evaluation",
+    "block": "Pheno_TMA3",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 118.0
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_2_2_5/multiplex_images/core_2_2_5/CD8.tif",
+      "shape": [
+        2655,
+        2700
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_2_2_5/cell_segmentations/core_2_2_5.tiff",
+      "shape": [
+        2655,
+        2700
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA3_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_2_2_5"
+      }
+    }
+  },
+  {
+    "pair_key": "f675cb6ceeaa167f03332038",
+    "unit": "PhenoBIC/TMA3/core_2_2_7",
+    "resource": "PhenoBIC",
+    "source": "TMA3",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 6298,
+    "split": "evaluation",
+    "block": "Pheno_TMA3",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 73.0
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_2_2_7/multiplex_images/core_2_2_7/CD8.tif",
+      "shape": [
+        2466,
+        2550
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_2_2_7/cell_segmentations/core_2_2_7.tiff",
+      "shape": [
+        2466,
+        2550
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA3_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_2_2_7"
+      }
+    }
+  },
+  {
+    "pair_key": "0b8e8d51d6b43fd8bbcf054b",
+    "unit": "PhenoBIC/TMA3/core_2_3_5",
+    "resource": "PhenoBIC",
+    "source": "TMA3",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 12746,
+    "split": "evaluation",
+    "block": "Pheno_TMA3",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 28.0
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_2_3_5/multiplex_images/core_2_3_5/CD8.tif",
+      "shape": [
+        2678,
+        2836
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_2_3_5/cell_segmentations/core_2_3_5.tiff",
+      "shape": [
+        2678,
+        2836
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA3_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_2_3_5"
+      }
+    }
+  },
+  {
+    "pair_key": "e9949aaca18670f4dbc1a817",
+    "unit": "PhenoBIC/TMA3/core_2_5_1",
+    "resource": "PhenoBIC",
+    "source": "TMA3",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 8591,
+    "split": "evaluation",
+    "block": "Pheno_TMA3",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 118.0
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_2_5_1/multiplex_images/core_2_5_1/CD8.tif",
+      "shape": [
+        2649,
+        2854
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_2_5_1/cell_segmentations/core_2_5_1.tiff",
+      "shape": [
+        2649,
+        2854
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA3_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_2_5_1"
+      }
+    }
+  },
+  {
+    "pair_key": "2a74347b66bac3670425c2be",
+    "unit": "PhenoBIC/TMA3/core_2_5_2",
+    "resource": "PhenoBIC",
+    "source": "TMA3",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 9065,
+    "split": "evaluation",
+    "block": "Pheno_TMA3",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 54.0
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_2_5_2/multiplex_images/core_2_5_2/CD8.tif",
+      "shape": [
+        2506,
+        2538
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_2_5_2/cell_segmentations/core_2_5_2.tiff",
+      "shape": [
+        2506,
+        2538
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA3_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_2_5_2"
+      }
+    }
+  },
+  {
+    "pair_key": "9cdf13136fa90b6a211d0884",
+    "unit": "PhenoBIC/TMA3/core_2_5_5",
+    "resource": "PhenoBIC",
+    "source": "TMA3",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 7614,
+    "split": "evaluation",
+    "block": "Pheno_TMA3",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 98.0
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_2_5_5/multiplex_images/core_2_5_5/CD8.tif",
+      "shape": [
+        2602,
+        2751
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_2_5_5/cell_segmentations/core_2_5_5.tiff",
+      "shape": [
+        2602,
+        2751
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA3_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_2_5_5"
+      }
+    }
+  },
+  {
+    "pair_key": "8ec4a2d90ce91b3af8c3153a",
+    "unit": "PhenoBIC/TMA3/core_2_6_3",
+    "resource": "PhenoBIC",
+    "source": "TMA3",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 6206,
+    "split": "evaluation",
+    "block": "Pheno_TMA3",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 137.0
+    },
+    "image": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_2_6_3/multiplex_images/core_2_6_3/CD8.tif",
+      "shape": [
+        2297,
+        2368
+      ]
+    },
+    "mask": {
+      "path": "phenobic/external_val_TMA_cores/TMA3_CD8/core_2_6_3/cell_segmentations/core_2_6_3.tiff",
+      "shape": [
+        2297,
+        2368
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/external_val_TMA_cores/TMA3_CD8.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {
+        "Patch": "core_2_6_3"
+      }
+    }
+  },
+  {
+    "pair_key": "b4907aaf0b82c531b00773d2",
+    "unit": "PhenoBIC/training_WSIs/WSI1",
+    "resource": "PhenoBIC",
+    "source": "training_WSIs",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 40885,
+    "split": "train",
+    "block": "Pheno_training_WSIs",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 26.250211715698242
+    },
+    "image": {
+      "path": "phenobic/multiplex_WSIs/WSI1_CD8.tiff",
+      "shape": [
+        31753,
+        22114
+      ]
+    },
+    "mask": {
+      "path": "phenobic/cell_segmentations/WSI1.tiff",
+      "shape": [
+        31753,
+        22114
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/training_WSIs/WSI1.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {}
+    }
+  },
+  {
+    "pair_key": "de1767357c3f8eee4c69cdf9",
+    "unit": "PhenoBIC/training_WSIs/WSI2",
+    "resource": "PhenoBIC",
+    "source": "training_WSIs",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 42891,
+    "split": "train",
+    "block": "Pheno_training_WSIs",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 24.97427749633789
+    },
+    "image": {
+      "path": "phenobic/multiplex_WSIs/WSI2_CD8.tiff",
+      "shape": [
+        44168,
+        38672
+      ]
+    },
+    "mask": {
+      "path": "phenobic/cell_segmentations/WSI2.tiff",
+      "shape": [
+        44168,
+        38672
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/training_WSIs/WSI2.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {}
+    }
+  },
+  {
+    "pair_key": "0d8d22d1c469b64835d0837c",
+    "unit": "PhenoBIC/training_WSIs/WSI3",
+    "resource": "PhenoBIC",
+    "source": "training_WSIs",
+    "marker": "CD8",
+    "raw_marker": "CD8",
+    "n_labels": 17281,
+    "split": "train",
+    "block": "Pheno_training_WSIs",
+    "normalization": {
+      "q1": 0.0,
+      "q99_9": 25.27577018737793
+    },
+    "image": {
+      "path": "phenobic/multiplex_WSIs/WSI3_CD8.tiff",
+      "shape": [
+        27616,
+        23838
+      ]
+    },
+    "mask": {
+      "path": "phenobic/cell_segmentations/WSI3.tiff",
+      "shape": [
+        27616,
+        23838
+      ]
+    },
+    "labels": {
+      "path": "phenobic/ground_truth/training_WSIs/WSI3.csv",
+      "id": "label",
+      "target": "CD8",
+      "encoding": "pos_neg",
+      "filters": {}
+    }
+  }
+]
