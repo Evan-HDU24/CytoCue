@@ -2,6 +2,18 @@
 
 Cell-level marker positivity classification from multiplexed tissue images and aligned cell-instance masks. CytoCue combines Cell–Neighborhood Encoding (CNE) with a Contextual Gated Readout (CGR).
 
+## Motivation
+
+Given a marker image and cell-instance masks, our task is to classify each cell as marker-positive or marker-negative, supporting the identification and spatial mapping of immune cells such as CD8-positive cells.
+
+<p align="center">
+  <a href="assets/motivation.png"><img src="assets/motivation.png" alt="Motivation for cell-level immune marker positivity classification" width="460"></a>
+</p>
+
+## Framework
+
+[![CytoCue framework](assets/framework.png)](assets/framework.png)
+
 ## Run
 
 The verified environment uses Python 3.12 and PyTorch 2.8 / torchvision 0.23 with CUDA 12.8. Install a compatible PyTorch build, then install the remaining dependencies:
