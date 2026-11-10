@@ -1,4 +1,5 @@
 from collections import defaultdict
+import json
 from pathlib import Path
 
 import numpy as np
@@ -10,6 +11,7 @@ from .batching import move_context
 from .inference import autocast, batches, extract_features
 from .model import CytoCue
 from .readout import ContextualGatedReadout
+from .selection import BestTrainingState, TrainingScore, training_predictions
 
 
 def loss_function(logits, target):
@@ -76,6 +78,9 @@ def train(dataset, options):
     if device.type != "cuda":
         raise ValueError("Training requires a CUDA device")
     settings = options["training"]
+    score_training = TrainingScore(dataset)
+    if settings["encoder_epochs"] < 1 or settings["readout_epochs"] < 1:
+        raise ValueError("Both training stages require at least one epoch")
     output = Path(options["output"])
     if (output / "cytocue.pt").exists():
         raise FileExistsError("Choose an unused output folder to preserve the existing model")
@@ -98,6 +103,8 @@ def train(dataset, options):
         ],
         weight_decay=settings["weight_decay"],
     )
+    best_encoder = BestTrainingState()
+    history = {"encoder": [], "readout": []}
     for epoch in range(settings["encoder_epochs"]):
         model.train()
         model.encoder.freeze_backbones(epoch < settings["warmup_epochs"])
@@ -124,11 +131,17 @@ def train(dataset, options):
             loss.backward()
             optimizer.step()
             total += loss.item()
+        score = score_training(training_predictions(model.encoder, representation_head, dataset, options))
+        best_encoder.update(model.encoder, score, epoch + 1)
+        history["encoder"].append({"epoch": epoch + 1, "train_f1": score})
+        (output / "training_history.json").write_text(json.dumps(history, indent=2), encoding="utf8")
         print(
-            f"Encoder {epoch + 1}/{settings['encoder_epochs']}: loss={total / settings['encoder_steps']:.6f}",
+            f"Encoder {epoch + 1}/{settings['encoder_epochs']}: loss={total / settings['encoder_steps']:.6f}, train_f1={score:.6f}",
             flush=True,
         )
-    del optimizer, representation_head
+    best_encoder.restore(model.encoder)
+    encoder_selection = {"epoch": best_encoder.epoch, "train_f1": best_encoder.score}
+    del optimizer, representation_head, best_encoder
     model.encoder.requires_grad_(False)
     matrix = extract_features(model.encoder, dataset, options, output / "features.npy")
     torch.manual_seed(options["seed"])
@@ -143,6 +156,7 @@ def train(dataset, options):
         weight_decay=settings["weight_decay"],
     )
     labels = np.asarray([row[2] for row in dataset.rows], dtype=np.float32)
+    best_readout = BestTrainingState()
     for epoch in range(settings["readout_epochs"]):
         model.readout.train()
         indices = sample_indices(
@@ -161,13 +175,24 @@ def train(dataset, options):
             loss.backward()
             optimizer.step()
             total += loss.item()
+        score = score_training(training_predictions(model.encoder, model.readout, dataset, options, matrix))
+        best_readout.update(model.readout, score, epoch + 1)
+        history["readout"].append({"epoch": epoch + 1, "train_f1": score})
+        (output / "training_history.json").write_text(json.dumps(history, indent=2), encoding="utf8")
         print(
-            f"Readout {epoch + 1}/{settings['readout_epochs']}: loss={total / settings['readout_steps']:.6f}",
+            f"Readout {epoch + 1}/{settings['readout_epochs']}: loss={total / settings['readout_steps']:.6f}, train_f1={score:.6f}",
             flush=True,
         )
+    best_readout.restore(model.readout)
     torch.save(
         {
             "architecture": options["architecture"],
+            "selection": {
+                "metric": "training_source_marker_macro_f1",
+                "threshold": 0.5,
+                "encoder": encoder_selection,
+                "readout": {"epoch": best_readout.epoch, "train_f1": best_readout.score},
+            },
             "state_dict": {k: v.cpu() for k, v in model.state_dict().items()},
         },
         output / "cytocue.pt",

@@ -54,8 +54,11 @@ Training also requires the Pan-Multiplex MIBI decidua, Vectra colon and Vectra p
 
 ## Training
 
+The training command completes the configured epochs in each stage and selects the epoch with the highest F1 on the complete, unaugmented training set. F1 is averaged equally across data-source–marker groups at a threshold of 0.5. Test data are used only by the separate evaluation command.
+
 ```bash
 python main.py train --data-root /path/to/data --output outputs/training
+python main.py evaluate --data-root /path/to/data --checkpoint outputs/training/cytocue.pt --output outputs/evaluation
 ```
 
 ## References and citation
